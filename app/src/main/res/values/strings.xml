@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cinta Dalam Persentase</string>
+    <string name="nama_laki_laki">Nama Anda</string>
+    <string name="nama_perempuan">Nama Pasangan</string>
+    <string name="ok">OK</string>
+    <string name="_100">100%</string>
+</resources>

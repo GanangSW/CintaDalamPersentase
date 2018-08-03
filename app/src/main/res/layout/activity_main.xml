@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.gswstudio.cintadalampersentase.MainActivity">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edittext_nama_laki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="@string/nama_laki_laki"
+        android:textColor="@color/colorAccent" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edittext_nama_perempuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_nama_laki"
+        android:layout_marginTop="5dp"
+        android:hint="@string/nama_perempuan"
+        android:textColor="@color/colorAccent" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_nama_perempuan"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:onClick="hasil"
+        android:text="@string/ok"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textview_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_label"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp" />
+
+</RelativeLayout>
